@@ -1,4 +1,4 @@
-FROM python:2.7.16-slim-stretch
+FROM physhik/keras-flask-app:2 
 
 COPY . /usr/src/app
 WORKDIR /usr/src/app
